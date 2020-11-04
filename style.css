@@ -1,0 +1,119 @@
+h1 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  text-align: center;
+  color:black ;
+}
+
+h2 {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  color: white;
+}
+
+p {
+  font-family: 'Open sans', sans-serif;
+  color: white;
+  font-size: 16px;
+}
+
+a {
+  font-family: 'Open sans', sans-serif;
+  text-decoration: none;
+  color: white;
+}
+
+body {
+  background-color: rgba(0,0,0, 0.05);
+}
+
+.general_info {
+  width : 70%;
+  margin: 0 auto;
+  border-radius: 10px;
+  border: solid rgb(79, 71, 86);
+}
+
+.crop {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto;
+}
+
+.crop img {
+  width: 216px;
+  height: 300px;
+  margin: -20px 0px 0px -30px;
+}
+
+.basic_card {
+  margin: 10px auto;
+  width: 70%;
+  height: 150px;
+  padding: 1px 0px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+  background-image: url(images/background2.jpg);
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: beige;
+  text-align: center;
+}
+
+@media (max-width: 300px) {
+  .basic_card {
+    margin: 10px auto;
+    width: 70%;
+    height: 250px;
+    padding: 1px 0px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    background-image: url(images/background2.jpg);
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: beige;
+    text-align: center;
+  }
+}
+
+
+.basic_card a {
+  background-color: grey;
+  padding: 5px 5px;
+  margin: 0 auto;
+}
+
+.basic_card a:hover {
+  background-color: white;
+  color: grey;
+  font-weight: bolder;
+}
+
+.follow_card {
+  margin: 15px auto;
+  border-radius: 10px;
+  padding: 1px 0px;
+  width: 70%;
+  background-color: rgb(79, 71, 86);
+}
+
+.list {
+  list-style: none;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.list li {
+  display: inline;
+  padding: 50px;
+}
+
+.follow_card a {
+  font-size: 30px;
+}
